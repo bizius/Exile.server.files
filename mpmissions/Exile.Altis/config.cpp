@@ -1306,6 +1306,10 @@ class CfgExileArsenal
 	class 6Rnd_RedSignal_F 							{ quality = 9000; price = 30; };
 	class 7Rnd_408_Mag 								{ quality = 1; price = 10; };
 	class 9Rnd_45ACP_Mag 							{ quality = 1; price = 6; };
+	//class I_static_AA_F								{ quality = 1; price = 500; };
+	class RPG32_HE_F								{ quality = 1; price = 500; };
+	class Titan_AT									{ quality = 1; price = 500; };       
+	class Titan_AP									{ quality = 1; price = 500; };
 
 	///////////////////////////////////////////////////////////////////////////////
 	// Flares
@@ -1452,6 +1456,14 @@ class CfgExileArsenal
 	class srifle_GM6_F 								{ quality = 3; price = 900; };
 	class srifle_LRR_camo_F 						{ quality = 3; price = 850; };
 	class srifle_LRR_F 								{ quality = 3; price = 850; };
+	
+	///////////////////////////////////////////////////////////////////////////////
+	// LAUNCHERS
+	///////////////////////////////////////////////////////////////////////////////
+	class launch_RPG32_F							{ quality = 1; price = 4000; };
+	class launch_I_Titan_F							{ quality = 1; price = 6000; };
+	class launch_I_Titan_short_F					{ quality = 1; price = 6000; };
+	
 
 	///////////////////////////////////////////////////////////////////////////////
 	// BIKES
@@ -3325,7 +3337,10 @@ class CfgTraderCategories
 		{
 			"O_HMG_01_support_F",
 			//"O_HMG_01_support_high_F", // Does not seem to work with HMG01, only the lower version does
-			"O_HMG_01_weapon_F"
+			"O_HMG_01_weapon_F",
+			"launch_RPG32_F",
+			"launch_I_Titan_F",
+			"launch_I_Titan_short_F"
 		};
 	};
 
@@ -3591,7 +3606,11 @@ class CfgTraderCategories
 			"6Rnd_GreenSignal_F",
 			"6Rnd_RedSignal_F",
 			"7Rnd_408_Mag",
-			"9Rnd_45ACP_Mag"
+			"9Rnd_45ACP_Mag",
+			//"I_static_AA_F",
+			"RPG32_HE_F",
+			"Titan_AT",          
+			"Titan_AP"
 		};
 	};
 

@@ -3,9 +3,13 @@
 ///////////////////////////////////////////////////////////////////////////////
 
 // Taken away for now
-//#include "initServer.sqf"
 
-if (!hasInterface || isServer) exitWith {};
+//#include "initServer.sqf"
+[]execVM "HC\init.sqf";
+
+if (!hasInterface || isServer) exitWith {
+
+};
 
 ///////////////////////////////////////////////////////////////////////////
 // Hardware Trader
